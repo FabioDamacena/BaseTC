@@ -1,0 +1,10 @@
+Ideia geral do projeto:
+Escrever código Python para que seja feito WebScraping no diário oficial do TCE-PR;
+O Scraper deverá ler o texto do arquivo PDF, deverá ser empregado um script para separar os itens e armazenar os dados em um arquivo csv estruturado.
+
+Após isso, pode ser implementado script que salvará os dados coletados em tabelas no SQL.
+
+3 tarefas macro:
+- Script para acessar link do diário oficial e ler os dados de texto;
+- Script para separar os dados de texto em diferentes registros de acordo com cada decisão, portaria, despacho etc.
+- Script para salvar os dados tratados em tabelas SQL, formando um bando de dados de texto devidamente estruturado para futuras aplicações.
